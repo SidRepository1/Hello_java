@@ -104,6 +104,10 @@ public class HotelController {
 		return hotels;
 	}
 
+@GetMapping()
+public String geeet(){
+return "hello world";
+}
 	@GetMapping("/orCondition")
 	public List<Hotel> orCondition() {
 
